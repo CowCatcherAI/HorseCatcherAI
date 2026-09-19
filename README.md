@@ -65,3 +65,7 @@ This project is made possible by the amazing [Ultralytics YOLO](https://github.c
 
 This is an open-source project. You may modify, improve, and adapt it to your specific stable setup. Contributions are highly welcome via Pull Requests!
 
+## HorseCatcher AI logo
+
+<img width="2048" height="2048" alt="Gemini_Generated_Image_il9oztil9oztil9o" src="https://github.com/user-attachments/assets/e3e8b1a2-5ae9-4326-87b1-58e693542850" />
+
