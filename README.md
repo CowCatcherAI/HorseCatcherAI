@@ -61,9 +61,9 @@ This project is made possible by the amazing [Ultralytics YOLO](https://github.c
 
 ---
 
-## 🤝 Contributing
+## ⚠️ Disclaimer
 
-This is an open-source project. You may modify, improve, and adapt it to your specific stable setup. Contributions are highly welcome via Pull Requests!
+This software is provided "as is" without warranty of any kind. It is an assistive tool — **not a substitute for professional veterinary advice**. Always confirm detections and consult a veterinarian for animal health decisions. The authors accept no liability for missed detections, false alarms, or decisions made based on this software.
 
 ## HorseCatcher AI logo
 
