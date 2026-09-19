@@ -4,6 +4,10 @@ As part of the **CowCatcherAI** open-source ecosystem, **HorseCatcherAI** is the
 
 By combining computer vision and local AI agents, HorseCatcherAI provides real-time insights and instant notifications to help breeders protect their mares and foals during crucial moments.
 
+while we don't have an official foaling model for horses just yet, our standard Calving model does a solid job picking up the key signs (waterbag, hooves, head, and body). Just be sure to drop your confidence threshold to around 0.60 in config.json.
+
+We’re currently running trials with a small horse farm to train a dedicated model from the ground up, and we'd love more partners. If you'd like to test it out or collaborate with us to make the model better, drop us a line at Cowcatcherai@gmail.com!
+
 ---
 
 ## 🔄 How it Works
