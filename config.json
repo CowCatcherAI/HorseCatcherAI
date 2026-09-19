@@ -1,0 +1,57 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ESchouten/ai-detector/winml-ep/config/config.schema.json",
+    "detectors": [
+        {
+            "detection": {
+                "source": [
+                    "rtsp_url"
+                ],
+                "interval": 1,
+                "frame_retention": 20
+            },
+            "yolo": {
+                "model": "https://github.com/CowCatcherAI/CalvingCatcherAI/releases/download/CalvingcatcherV1/calvingcatcherV10.pt",
+                "confidence": {
+                    "waterbag": 0.6,
+                    "legs": 0.6,
+                    "head": 0.6,
+                    "body": 0.6,
+                    "calf": 0.6
+                },
+                "cooldown": {
+                    "calf": 900,
+                    "waterbag": 300,
+                    "legs": 300,
+                    "head": 300,
+                    "body": 300
+                },
+                "frames_min": 4,
+                "timeout": 30,
+                "imgsz": 640,
+                "strategy": "LATEST"
+            },
+            "exporters": {
+                "disk": {
+                    "strategy": "ALL",
+                    "directory": "horses"
+                },
+                "telegram": {
+                    "token": "<telegram_bot_token>",
+                    "chat": "<telegram_chat_id>",
+                    "alert_every": 1,
+                    "export_rejected": true,
+                    "include_plot": true,
+                    "include_crop": false,
+                    "include_video": true,
+                    "confidence": {
+                        "waterbag": 0.6,
+                        "legs": 0.6,
+                        "head": 0.6,
+                        "body": 0.6,
+                        "calf": 0.6
+                    }
+                }
+            }
+        }
+    ]
+}
