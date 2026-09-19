@@ -12,7 +12,7 @@ We’re currently running trials with a small horse farm to train a dedicated mo
 
 ## 🔄 How it Works
 
-📷 Foaling Stall Camera  ──→ 🤖 AI Computer Vision (YOLO) ──→ ⚡ Event Detection (Foaling) ──→ 💽 Save Event Image ──→  📲 Telegram Notification with Image & AI Reasoning
+📷 Foaling Stall Camera  ──→ 🤖 AI Computer Vision (YOLO) ──→ ⚡ Event Detection (Foaling) ──→ 💽 Save Event Image ──→  📲 Telegram Notification with Image & video
 
 ---
 
@@ -21,9 +21,7 @@ We’re currently running trials with a small horse farm to train a dedicated mo
 We combine multiple cutting-edge, open-source technologies to create a reliable monitoring system that runs on the core [AI Detector](https://github.com/ESchouten/ai-detector) software:
 
 * **Computer Vision:** Powered by **Ultralytics YOLO** for real-time tracking and behavior detection (restlessness, labor positioning, and the birthing process).
-* **Thermal Imaging Support:** Optimized for IP cameras with thermal lenses. This allows the system to accurately detect the heat signatures of the mare and the newborn foal, identify the exact moment of birth, and perform a final check to confirm the newborn is alive and moving.
-* **Local AI Agents:** Integrates with lightweight, locally hosted vision-language models like **Qwen 2.5-VL / Qwen 3.0** and **Moondream AI** (fine-tuned with foaling context) to analyze images. Alternatively, it can connect to cloud-based LLM APIs.
-* **Smart Alerts:** Instant Telegram notifications including the captured image and the AI agent's expert reasoning.
+* **Smart Alerts:** Instant Telegram notifications including the captured image and video
 
 ---
 
